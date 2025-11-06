@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inconsolata&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><path fill='%23a35042' d='M57.7 193l9.4 16.4c8.3 14.5 21.9 25.2 38 29.8L163 255.7c17.2 4.9 29 20.6 29 38.5v39.9c0 11 6.2 21 16 25.9s16 14.9 16 25.9v39c0 15.6 14.9 26.9 29.9 22.6c16.1-4.6 28.6-17.5 32.7-33.8l2.8-11.2c4.2-16.9 15.2-31.4 30.3-40l8.1-4.6c15-8.5 24.2-24.5 24.2-41.7v-8.3c0-12.7-5.1-24.9-14.1-33.9l-3.9-3.9c-9-9-21.2-14.1-33.9-14.1H257c-11.1 0-22.1-2.9-31.8-8.4l-34.5-19.7c-4.3-2.5-7.6-6.5-9.2-11.2c-3.2-9.6 1.1-20 10.2-24.5l5.9-3c6.6-3.3 14.3-3.9 21.3-1.5l23.2 7.7c8.2 2.7 17.2-.4 21.9-7.5c4.7-7 4.2-16.3-1.2-22.8l-13.7-16.3c-10-12-9.9-29.5 .3-41.3l15.7-18.3c8.8-10.3 10.2-25 3.5-36.7l-2.4-4.2c-3.5-.2-6.9-.3-10.4-.3C163.1 48 84.4 108.9 57.7 193zM464 256c0-36.8-9.6-71.4-26.4-101.5L412 164.8c-15.7 6.3-23.8 23.8-18.5 39.8l16.9 50.7c3.5 10.4 12 18.3 22.6 20.9l29.1 7.3c1.2-9 1.8-18.2 1.8-27.5zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z'/></svg>" type="image/svg+xml">
+
 </head> 
 <body>
     <header>
@@ -284,28 +286,6 @@
     </div>
 </section>
 
-<section id="languages">
-    <div class="container">
-        <h2 class="section-title">Languages</h2>
-        <div class="section-content">
-        <div class="languages-content">
-            <div class="language-item">
-                <span class="language-name"> <i class="fa-solid fa-asterisk"></i>Spanish</span>
-                <span class="language-proficiency">Native Proficiency</span>
-            </div>
-            <div class="language-item">
-                <span class="language-name"> <i class="fa-solid fa-asterisk"></i>English</span>
-                <span class="language-proficiency">Native Proficiency</span>
-            </div>
-            <div class="language-item">
-                <span class="language-name"> <i class="fa-solid fa-asterisk"></i>Sanskrit</span>
-                <span class="language-proficiency">Intermediate</span>
-            </div>
-        </div>
-    </div>
-</section>
-
-
 <section id="education">
     <div class="container">
         <h2 class="section-title">Higher Education</h2>
@@ -344,6 +324,30 @@
         </div>
     </div>
 </section>
+
+<section id="languages">
+    <div class="container">
+        <h2 class="section-title">Languages</h2>
+        <div class="section-content">
+        <div class="languages-content">
+            <div class="language-item">
+                <span class="language-name"> <i class="fa-solid fa-asterisk"></i>Spanish</span>
+                <span class="language-proficiency">Native Proficiency</span>
+            </div>
+            <div class="language-item">
+                <span class="language-name"> <i class="fa-solid fa-asterisk"></i>English</span>
+                <span class="language-proficiency">Native Proficiency</span>
+            </div>
+            <div class="language-item">
+                <span class="language-name"> <i class="fa-solid fa-asterisk"></i>Sanskrit</span>
+                <span class="language-proficiency">Intermediate</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
 
 <section id="skills">
     <div class="container">
@@ -432,9 +436,15 @@
     <div class="container">
         <div class="footer-content">
             <div class="social-icons">
-                <a href="www.facebook.com" class="icon-link"><i class="fab fa-linkedin"></i></a>
-                <a href="#" class="icon-link"><i class="fab fa-github"></i></a>
-                <a href="#" class="icon-link"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/mninni/" class="icon-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://mica-92.github.io/mninni/" class="icon-link"><i class="fab fa-github"></i></a>
+                <a href="mailto:micaela.ninni@gmail.com" class="icon-link"><i class="fas fa-envelope"></i></a>
+                
+                <!-- Botón de cambio de idioma -->
+                <button id="language-toggle" class="icon-link lang-toggle" title="Switch to Spanish">
+                    <span>ES</span>
+                </button>
+                
                 <div class="dropdown" tabindex="0">
                     <a href="#" class="icon-link file-icon"><i class="fas fa-arrow-down"></i></a>
                     <div class="dropdown-content dropup">
@@ -449,12 +459,11 @@
                         <a href="#value" class="menu-option">Value Proposition</a>
                         <a href="#aptitudes" class="menu-option">Professional Aptitudes</a>
                         <a href="#experience" class="menu-option">Work & Research Experience</a>
-                        <a href="#education" class="menu-option">Education</a>
+                        <a href="#education" class="menu-option">Higher Education</a>
                         <a href="#languages" class="menu-option">Languages</a>
                         <a href="#skills" class="menu-option">Analytical & Coding Skills</a>
                         <a href="#research-projects" class="menu-option">🚧 Research Projects</a>
                         <a href="#coding-projects" class="menu-option">🚧 Coding Projects</a>
-
                     </div>
                 </div>
             </div>
@@ -552,6 +561,102 @@ document.querySelectorAll('.dropdown-content a').forEach(link => {
         }
     });
 });
+
+
+// Language toggle functionality
+const languageToggle = document.getElementById('language-toggle');
+let currentLanguage = 'en';
+
+languageToggle.addEventListener('click', function() {
+    if (currentLanguage === 'en') {
+        // Cambiar a español
+        switchToSpanish();
+        currentLanguage = 'es';
+        this.innerHTML = '<span>EN</span>';
+        this.title = 'Switch to English';
+    } else {
+        // Cambiar a inglés
+        switchToEnglish();
+        currentLanguage = 'en';
+        this.innerHTML = '<span>ES</span>';
+        this.title = 'Switch to Spanish';
+    }
+    
+    this.classList.toggle('active');
+});
+
+function switchToSpanish() {
+    // Aquí iría toda la lógica para cambiar el contenido a español
+    console.log('Cambiando a español...');
+    
+    // Ejemplo de cambios (deberías expandir esto para todo el contenido):
+    document.querySelector('.name-header h2').textContent = 'Geología | Geoquímica | Yacimientos Minerales';
+    document.querySelector('header .header-content').textContent = 'Geóloga basada en Buenos Aires, Argentina';
+    
+    // Actualizar textos de navegación
+    document.querySelectorAll('.dropdown-content a').forEach(link => {
+        const href = link.getAttribute('href');
+        switch(href) {
+            case '#profile':
+                link.textContent = 'Perfil Profesional';
+                break;
+            case '#value':
+                link.textContent = 'Propuesta de Valor';
+                break;
+            case '#aptitudes':
+                link.textContent = 'Aptitudes Profesionales';
+                break;
+            case '#experience':
+                link.textContent = 'Experiencia Laboral e Investigación';
+                break;
+            case '#education':
+                link.textContent = 'Educación Superior';
+                break;
+            case '#languages':
+                link.textContent = 'Idiomas';
+                break;
+            case '#skills':
+                link.textContent = 'Habilidades Analíticas y de Programación';
+                break;
+        }
+    });
+}
+
+function switchToEnglish() {
+    // Restaurar contenido en inglés
+    console.log('Cambiando a inglés...');
+    
+    document.querySelector('.name-header h2').textContent = 'Geology | Geochemistry | Ore Deposits';
+    document.querySelector('header .header-content').textContent = 'Geologist based in Buenos Aires, Argentina';
+    
+    // Restaurar navegación en inglés
+    document.querySelectorAll('.dropdown-content a').forEach(link => {
+        const href = link.getAttribute('href');
+        switch(href) {
+            case '#profile':
+                link.textContent = 'Professional Profile';
+                break;
+            case '#value':
+                link.textContent = 'Value Proposition';
+                break;
+            case '#aptitudes':
+                link.textContent = 'Professional Aptitudes';
+                break;
+            case '#experience':
+                link.textContent = 'Work & Research Experience';
+                break;
+            case '#education':
+                link.textContent = 'Higher Education';
+                break;
+            case '#languages':
+                link.textContent = 'Languages';
+                break;
+            case '#skills':
+                link.textContent = 'Analytical & Coding Skills';
+                break;
+        }
+    });
+}
     </script>
 </body>
 </html>
