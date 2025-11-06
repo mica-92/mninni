@@ -646,3 +646,37 @@ footer .dropdown-content a:hover {
     width: 100%;
     background-color: var(--light);
 }
+
+/* Language toggle button styles */
+.lang-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--dark);
+    color: var(--primary);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 1px solid var(--primary);
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Inconsolata';
+}
+
+.lang-toggle:hover {
+    background-color: var(--accent);
+    color: var(--primary);
+    transform: scale(1.1);
+}
+
+.lang-toggle.active {
+    background-color: var(--accent);
+    color: var(--primary);
+}
+
+.lang-toggle span {
+    font-size: 0.7rem;
+}
